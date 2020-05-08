@@ -1,0 +1,41 @@
+> db.Orders.find()
+> db.createCollection('Orders')
+{ "ok" : 1 }
+> db.Orders.insertOne({id:'6001',name:'Full Stack Developer' ,price:'2999'})
+{
+        "acknowledged" : true,
+        "insertedId" : ObjectId("5eb4db05ed0d1d1c1de43bdc")
+}
+> db.Orders.insertOne({id:'6002',name:'ReacT Js' ,price:'3000'})
+{
+        "acknowledged" : true,
+        "insertedId" : ObjectId("5eb4db32ed0d1d1c1de43bdd")
+}
+> db.Orders.insertOne({id:'6003',name:'Node Js' ,price:'4020'})
+{
+        "acknowledged" : true,
+        "insertedId" : ObjectId("5eb4db53ed0d1d1c1de43bde")
+}
+> db.Orders.insertOne({id:'6004',name:'Modern JavaScript' ,price:'3999'})
+{
+        "acknowledged" : true,
+        "insertedId" : ObjectId("5eb4db8fed0d1d1c1de43bdf")
+}
+> db.Orders.insertOne({id:'6005',name:'HTML CSS RWD' ,price:'4000'})
+{
+        "acknowledged" : true,
+        "insertedId" : ObjectId("5eb4dbbeed0d1d1c1de43be0")
+}
+> db.Orders.insertOne({id:'6006',name:'MongoDB' ,price:'9999'})
+{
+        "acknowledged" : true,
+        "insertedId" : ObjectId("5eb4dc34ed0d1d1c1de43be1")
+}
+> db.Orders.find()
+{ "_id" : ObjectId("5eb4db05ed0d1d1c1de43bdc"), "id" : "6001", "name" : "Full Stack Developer", "price" : "2999" }
+{ "_id" : ObjectId("5eb4db32ed0d1d1c1de43bdd"), "id" : "6002", "name" : "ReacT Js", "price" : "3000" }
+{ "_id" : ObjectId("5eb4db53ed0d1d1c1de43bde"), "id" : "6003", "name" : "Node Js", "price" : "4020" }
+{ "_id" : ObjectId("5eb4db8fed0d1d1c1de43bdf"), "id" : "6004", "name" : "Modern JavaScript", "price" : "3999" }
+{ "_id" : ObjectId("5eb4dbbeed0d1d1c1de43be0"), "id" : "6005", "name" : "HTML CSS RWD", "price" : "4000" }
+{ "_id" : ObjectId("5eb4dc34ed0d1d1c1de43be1"), "id" : "6006", "name" : "MongoDB", "price" : "9999" }
+>

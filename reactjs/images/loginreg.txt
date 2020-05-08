@@ -1,0 +1,47 @@
+
+> show databases
+Orders           0.000GB
+admin            0.000GB
+config           0.000GB
+employee         0.000GB
+local            0.000GB
+login            0.000GB
+mernloginreg     0.000GB
+onlinebookstore  0.000GB
+projectsDB       0.000GB
+register         0.000GB
+test             0.000GB
+trafficinfra     0.000GB
+wishlist         0.000GB
+> use mernloginreg
+switched to db mernloginreg
+> show collections
+users
+> db.users.find().pretty()
+{
+        "_id" : ObjectId("5eb192d44d5107182cd77489"),
+        "first_name" : "deevena",
+        "last_name" : "madha",
+        "email" : "deevena998@gmail.com",
+        "password" : "$2b$10$WlPm/awvhQt5YJ9FXnZ4hOYPJ4OvIZGNVMjTujbaOucP9juhWV9OO",
+        "date" : ISODate("2020-05-05T16:22:44.444Z"),
+        "__v" : 0
+}
+{
+        "_id" : ObjectId("5eb2aacaf1997b28243e59a5"),
+        "first_name" : "madha",
+        "last_name" : "deevena",
+        "email" : "deevena@gmail.com",
+        "password" : "$2b$10$UTSGS23UsZ0pVmGd8/acbeUPr.7bEWwU7vsJRtMRB5nyDPS7SjC3G",
+        "date" : ISODate("2020-05-06T12:17:14.648Z"),
+        "__v" : 0
+}
+{
+        "_id" : ObjectId("5eb427dd37767b040cfb0dd3"),
+        "first_name" : "sweety",
+        "last_name" : "bittu",
+        "email" : "sweety@gmail.com",
+        "password" : "$2b$10$4H3pFEh1UaEh0gowkdj2tOZjlO2cDYGHcJ/VsNP3.1zuEMPHiZqSe",
+        "date" : ISODate("2020-05-07T15:23:09.736Z"),
+        "__v" : 0
+}

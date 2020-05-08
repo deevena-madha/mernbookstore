@@ -1,0 +1,39 @@
+> db.wishlist.find()
+> db.wishlist.insertOne({id:'5001',name:'Full Stack Developer',numberInStock:'5',price:'15000'})
+{
+        "acknowledged" : true,
+        "insertedId" : ObjectId("5eb4d9abed0d1d1c1de43bd6")
+}
+> db.wishlist.insertOne({id:'5002',name:'ReactJs',numberInStock:'5',price:'15000'})
+{
+        "acknowledged" : true,
+        "insertedId" : ObjectId("5eb4d9b1ed0d1d1c1de43bd7")
+}
+> db.wishlist.insertOne({id:'5003',name:'NodeJs',numberInStock:'3',price:'64000'})
+{
+        "acknowledged" : true,
+        "insertedId" : ObjectId("5eb4d9bbed0d1d1c1de43bd8")
+}
+> db.wishlist.insertOne({id:'5004',name:'Modern JavaScript',numberInStock:'10',price:'8500'})
+{
+        "acknowledged" : true,
+        "insertedId" : ObjectId("5eb4d9cbed0d1d1c1de43bd9")
+}
+> db.wishlist.insertOne({id:'5005',name:'HTML,CSS,RWD',numberInStock:'12',price:'4200'})
+{
+        "acknowledged" : true,
+        "insertedId" : ObjectId("5eb4d9d5ed0d1d1c1de43bda")
+}
+> db.wishlist.insertOne({id:'5006',name:'MongoDB',numberInStock:'6',price:'3400'})
+{
+        "acknowledged" : true,
+        "insertedId" : ObjectId("5eb4d9e9ed0d1d1c1de43bdb")
+}
+> db.wishlist.find()
+{ "_id" : ObjectId("5eb4d9abed0d1d1c1de43bd6"), "id" : "5001", "name" : "Full Stack Developer", "numberInStock" : "5", "price" : "15000" }
+{ "_id" : ObjectId("5eb4d9b1ed0d1d1c1de43bd7"), "id" : "5002", "name" : "ReactJs", "numberInStock" : "5", "price" : "15000" }
+{ "_id" : ObjectId("5eb4d9bbed0d1d1c1de43bd8"), "id" : "5003", "name" : "NodeJs", "numberInStock" : "3", "price" : "64000" }
+{ "_id" : ObjectId("5eb4d9cbed0d1d1c1de43bd9"), "id" : "5004", "name" : "Modern JavaScript", "numberInStock" : "10", "price" : "8500" }
+{ "_id" : ObjectId("5eb4d9d5ed0d1d1c1de43bda"), "id" : "5005", "name" : "HTML,CSS,RWD", "numberInStock" : "12", "price" : "4200" }
+{ "_id" : ObjectId("5eb4d9e9ed0d1d1c1de43bdb"), "id" : "5006", "name" : "MongoDB", "numberInStock" : "6", "price" : "3400" }
+>
