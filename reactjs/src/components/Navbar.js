@@ -26,16 +26,7 @@ class Landing extends Component {
           <Link to="/WishList" className="nav-link">
             wishList
           </Link>
-          
-         
-
-
-
-
-
-
-
-
+        
         </li>
         <li className="nav-item">
           <Link to="/Orders" className="nav-link">
@@ -59,24 +50,13 @@ class Landing extends Component {
             Logout
           </Link>
           </li>
-
-           
           <li
             className="nav-item"
             style={{ marginLeft: "600px", marginRight: "10px" }}
           ></li>
-
-
-
-
-         
-           
-         
 </ul>
     
     )
-    
-
     const userLink = (
       <ul className="navbar-nav">
         <li className="nav-item">
