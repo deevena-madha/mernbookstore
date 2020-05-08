@@ -5,40 +5,40 @@ class WishList extends Component {
     count: 0,
     products: [
       {
-        id: "5c15",
+        id: "5001",
         name: "Full Stack Developer",
-        numberInStock: 4,
-        price: 10000
+        numberInStock: 5,
+        price: 15000
       },
       {
-        id: "5a16",
+        id: "5002",
         name: "ReactJS",
         numberInStock: 5,
-        price: 5000
+        price: 15000
       },
       {
-        id: "5t17",
+        id: "5003",
         name: "NodeJS",
         numberInStock: 3,
-        price: 4000
+        price: 64000
       },
       {
-        id: "6c18",
+        id: "5004",
         name: "Modern JavaScript",
-        numberInStock: 6,
-        price: 3500
+        numberInStock: 10,
+        price: 8500
       },
       {
-        id: "5d19",
+        id: "5005",
         name: "HTML,CSS,RWD",
-        numberInStock: 2,
-        price: 4000
+        numberInStock: 12,
+        price: 4200
       },
       {
-        id: "5a20",
+        id: "5006",
         name: "MongoDB",
-        numberInStock: 1,
-        price: 3000
+        numberInStock: 6,
+        price: 3400
       },
       
     ]
