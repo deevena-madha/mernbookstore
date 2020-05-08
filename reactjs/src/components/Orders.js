@@ -3,40 +3,40 @@ class Orders extends Component {
   state = {
     orders: [
       {
-        id: "5c15",
+        id: "6001",
         name: "Full Stack Developer",
         numberInStock: 6,
-        Price: 10000
+        Price: 2999
       },
       {
-        id: "5a16",
+        id: "6002",
         name: "ReactJS",
         numberInStock: 5,
-        Price: 5000
+        Price: 3000
       },
       {
-        id: "5t17",
+        id: "6003",
         name: "NodeJS",
         numberInStock: 8,
-        Price: 4000
+        Price: 4020
       },
       {
-        id: "6c18",
+        id: "6004",
         name: "Modern JavaScript",
         numberInStock: 7,
-        Price: 3500
+        Price: 3999
       },
       {
-        id: "5d19",
+        id: "6005",
         name: "HTML,CSS,RWD",
         numberInStock: 7,
         Price: 4000
       },
       {
-        id: "5a20",
+        id: "6006",
         name: "MongoDB",
         numberInStock: 7,
-        Price: 3.5
+        Price: 9999
       },
       
     ]
