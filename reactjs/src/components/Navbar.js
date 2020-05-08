@@ -27,7 +27,15 @@ class Landing extends Component {
             wishList
           </Link>
           
-          
+         
+
+
+
+
+
+
+
+
         </li>
         <li className="nav-item">
           <Link to="/Orders" className="nav-link">
@@ -36,17 +44,36 @@ class Landing extends Component {
         </li>
         <li
             className="nav-item"
-            style={{ marginLeft: "300px", marginRight: "10px" }}
+            style={{ marginLeft: "900px", marginRight: "10px" }}
           ></li>
 <li className="nav-item mr-3" style={{ color: "red" }}>
             <i className="fas fa-shopping-cart"></i>
           </li>
 
 
+          <li className="nav-item ml-0">
+            0
+            ></li>
+            <li className="nav-item">
+          <Link to="/Logout" className="nav-link">
+            Logout
+          </Link>
+          </li>
+
+           
+          <li
+            className="nav-item"
+            style={{ marginLeft: "600px", marginRight: "10px" }}
+          ></li>
 
 
 
-      </ul>
+
+         
+           
+         
+</ul>
+    
     )
     
 
